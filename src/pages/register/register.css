@@ -1,0 +1,113 @@
+.login{
+    display: flex;
+    margin:auto;
+    
+
+    justify-content: center;
+    align-items: center;
+    /* border:  1px solid black; */
+    height:  600px;
+    width: 650px;
+    background-color: rgb(251, 254, 255);
+     
+}
+.register-left{
+  
+    
+    color: white;
+   
+    background-image: url('C:\Users\nikhil\Desktop\spark-social app\spark\src\assets\register.jpg');
+    background-size: cover;
+
+    background-repeat: no-repeat;
+   margin-left: -1.7rem;
+    
+
+    /* border:1px solid black; */
+    height:400px ;
+    width: 300px;
+    border-radius: 0.5rem;
+
+}
+#account{
+    display: flex;
+     margin-left: 5rem;
+     margin-top: 13.5rem;
+    position: absolute;
+    
+
+}
+.register-left h1{
+    
+    
+     padding: 1rem;
+    margin-left: 3rem;
+}
+
+
+#login-btn{
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    padding: 0.2rem;
+    border-radius: 0.4rem;
+    border: none;
+    margin-top: 17rem;
+    margin-left: 7rem;
+    width: 3rem;
+    background-color: rgb(211, 101, 27);
+    color: white;
+    /* padding: 0.5rem; */
+    border: 1px solid white;
+    text-decoration: none;
+}
+
+
+.right{
+    padding: 0.3rem;
+  position: relative;
+  margin-top: -25rem;
+  display: flex;
+  
+  margin-left: 17rem;
+  flex-direction:  column;
+  
+  border: 1px solid #c7b4b4;
+  height: 390px;
+  width: 300px;
+  border-radius: 0.5rem;
+  background-color: white;
+}
+.right input{
+
+    border: none;
+    border-bottom: 1px solid lightgray;
+    padding: 20px 10px;
+    margin: -0.1rem;
+    margin-left: 1rem;
+
+    
+}
+.right input:focus{
+    outline: none;
+}
+.right button{
+    display: flex;
+    flex-direction: column;
+    padding: 0.2rem;
+    border-radius: 0.4rem;
+    border: none;
+    margin-top: 3.6rem;
+    margin-left: 1.3rem;
+    background-color: rgb(27, 125, 211);
+    color: white;
+    padding: 0.5rem;
+
+    border: 1px solid white;
+    cursor: pointer;
+
+}
+.right h4{
+    color: #555;
+    margin-left: 1.3rem;
+}
